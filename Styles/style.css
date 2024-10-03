@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+body::-webkit-scrollbar-corner {
+  border-radius: 10px;
+}
+
+#chk1 {
+  display: none;
+}
+
+.luxury-dealer {
+  background-color: #121212; /* Fondo oscuro */
+  color: #eaeaea; /* Color de texto */
+}
+
+.luxury-dealer h2 {
+  color: #eaeaea; /* Color del encabezado */
+}
+
+.luxury-dealer p {
+  color: #dcdcdc; /* Color del texto */
+}
+
+.luxury-dealer .btn {
+  border: 2px solid #dc3545; /* Color del borde del botón */
+}
+
+.luxury-dealer .btn:hover {
+  background-color: #dc3545; /* Fondo del botón al pasar el ratón */
+  color: #fff; /* Color del texto del botón al pasar el ratón */
+}
+
+.luxury-dealer img {
+  border-radius: 15px; /* Bordes redondeados en la imagen */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra en la imagen */
+}
+
+.navbar-nav {
+  margin-left: 0; /* Asegura que no haya margen izquierdo */
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+}
+
+.nav-link {
+  margin-right: 10px; /* Espaciado entre los enlaces */
+}
+.navbar {
+  background-color: #000; /* Negro sólido */
+}
+.navbar-brand img {
+  width: 100px; /* Ajusta el tamaño a tu preferencia */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+i {
+  color: #fff;
+  cursor: pointer;
+}
+
+.custom-header .logo {
+  flex: 1;
+  color: #fff;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/* Navbar styles */
+.custom-header ul {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.custom-header ul li {
+  list-style: none;
+}
+
+.custom-header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.custom-header ul li a:hover {
+  border-bottom: 2px solid cadetblue;
+}
+
+.custom-header .menu {
+  font-size: 2.5em;
+  display: none;
+}
+
+/* Mobile styles */
+@media (max-width: 1000px) {
+  .custom-header ul {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background: rgba(0, 0, 0, 0.8); /* Fondo de menú móvil */
+    height: calc(100vh - 100px);
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
+
+  .custom-header .menu {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+
+  #chk1:checked ~ ul {
+    right: 0;
+  }
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+header .container {
+  top: 130px;
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.card {
+  border-radius: 6px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  object-fit: contain;
+  width: 100%;
+  height: 210px;
+}
+
+.card h5 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+
+.card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.header2 {
+  background-image: url(../img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-WALLPAPER.jpg);
+  width: 100%;
+  height: 0;
+  padding-top: 54%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.carousel-item video {
+  width: 100%; /* Asegura que ocupe el 100% del contenedor */
+  height: auto; /* Mantiene la proporción */
+  object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+}
+
+@media (min-width: 768px) {
+  .header2 {
+    height: 100vh;
+    padding-top: 0;
+  }
+}
+
+/* Ajustes para móviles */
+@media (max-width: 767px) {
+  body {
+    font-size: 100%;
+  }
+
+  header {
+    height: 60vh;
+  }
+
+  header .container {
+    top: 50px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .card h5 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .header2 {
+    padding-top: 80%;
+    height: auto;
+  }
+
+  #quienes-somos h2 {
+    font-size: 2rem; /* Tamaño de fuente más pequeño para el título */
+  }
+
+  #quienes-somos p {
+    font-size: 1rem; /* Tamaño de fuente más pequeño para el párrafo */
+    line-height: 1.4; /* Ajusta el interlineado para mayor legibilidad */
+  }
+
+  #quienes-somos .btn {
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    padding: 0.5rem 1rem; /* Ajusta el padding del botón */
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  header {
+    height: 50vh;
+  }
+
+  .card img {
+    height: 120px;
+  }
+
+  .card h5 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .luxury-dealer h2 {
+    font-size: 2.5rem; /* Ajusta el tamaño del encabezado en pantallas más pequeñas */
+  }
+  .luxury-dealer p {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto en pantallas más pequeñas */
+  }
+}

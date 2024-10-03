@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Chevrolet Malibu 2020",
+    "description": "Descubre el Chevrolet Malibu 2020, una berlina que redefine el concepto de elegancia y funcionalidad. Con un motor turboalimentado de 1.5L, este sedán no solo ofrece un rendimiento excepcional, sino también una eficiencia de combustible envidiable. Su diseño exterior aerodinámico no solo cautiva las miradas, sino que también mejora la experiencia de conducción al reducir la resistencia al viento. El interior es un oasis de confort, con materiales de alta calidad y tecnología de punta, incluyendo una pantalla táctil intuitiva y conectividad Bluetooth. Ya sea que te desplaces por la ciudad o emprendas un viaje por carretera, el Malibu garantiza un manejo suave y una experiencia de conducción conectada. ¡Conviértete en el centro de atención con este vehículo que combina estilo y comodidad en cada viaje!",
+    "images": [
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020.avif",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-2.avif",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-3.png",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-4.avif",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-5.avif",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-6.avif",
+      "./img/Chevrolet-malibut-2020/Chevrolet-malibut-2020-7.avif"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hyundai Sonata SE 2020",
+    "description": "El Hyundai Sonata SE 2020 es más que un sedán mediano; es un viaje hacia el futuro de la conducción. Con su potente motor 2.5L, ofrece una aceleración impresionante y una eficiencia de combustible sobresaliente, lo que lo convierte en el compañero ideal para familias y aventureros por igual. Su diseño exterior moderno y elegante atrae todas las miradas, mientras que el interior se destaca por su amplitud y características tecnológicas avanzadas. Disfruta de un sistema de infoentretenimiento de última generación que te mantiene conectado en todo momento, además de un conjunto de características de seguridad que garantizan la tranquilidad en cada viaje. Desde recorridos urbanos hasta escapadas de fin de semana, el Sonata SE está diseñado para elevar tu experiencia de conducción a un nuevo nivel.",
+    "images": [
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-1.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-2.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-3.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-4.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-5.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-6.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-7.webp",
+      "./img/Hyundai-sonata-SE-2020/Hyundai-sonata-SE-2020-8.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kia Optima LX 2019",
+    "description": "Presentamos el Kia Optima LX 2019, un sedán que fusiona estilo, rendimiento y tecnología en una experiencia de conducción inigualable. Con un motor de 2.4L, el Optima ofrece un equilibrio perfecto entre potencia y eficiencia, permitiéndote disfrutar de cada kilómetro recorrido. Su diseño exterior es atrevido y deportivo, mientras que el interior te envuelve en comodidad, con asientos amplios y un panel de instrumentos intuitivo. Equipado con características de seguridad de vanguardia, este vehículo no solo te brinda confort, sino también confianza en la carretera. Ya sea que te desplaces por la ciudad o salgas a explorar nuevos destinos, el Kia Optima LX es la elección perfecta para quienes buscan un sedán que combine valor, rendimiento y tecnología.",
+    "images": [
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-1.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-2.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-3.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-4.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-5.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-6.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-7.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-8.webp",
+      "./img/Kia-Optima-LX-2019/Kia-Optima-LX-2019-10.webp"
+    ]
+  }
+]

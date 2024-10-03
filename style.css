@@ -1,0 +1,40 @@
+<div id="mainNavigation" class="fixed-top">
+<nav role="navigation">
+    <!-- Sección superior de la barra de navegación -->
+    <div class="py-2 text-center border-bottom">
+        <img src="./img/Logo ANTRA.png" alt="Logo ANTRA" href="#">
+    </div>
+</nav>
+<!-- Sección inferior de la barra de navegación -->
+<div class="navbar-expand-sm">
+    <!-- Botón de menú para dispositivos móviles -->
+    <div class="navbar-dark text-center my-2">
+        <button class="navbar-toggler w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="align-middle"></span>
+        </button>
+    </div>
+    <!-- Lista de enlaces de navegación -->
+    <div class="text-center mt-2 collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto ">
+            <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">CONTACTO</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
