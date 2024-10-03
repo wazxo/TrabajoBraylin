@@ -121,6 +121,29 @@ i {
   display: none;
 }
 
+footer {
+  background-color: #000; /* Negro sólido */
+  color: white;
+}
+
+footer a {
+  color: white;
+  margin-right: 15px;
+}
+
+footer a:hover {
+  color: #d1d1d1;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
 /* Mobile styles */
 @media (max-width: 1000px) {
   .custom-header ul {

@@ -34,6 +34,10 @@
       integrity="sha384-DyZk2c8E2TQlT5M96W4wLp1gWOrk8aVx95xQSKvVOQ3F49R1vIuvFl1c+/oRxe0O"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
     <title>ANTRA</title>
   </head>
@@ -73,15 +77,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-            </li>
           </ul>
         </div>
       </div>
@@ -98,23 +93,13 @@
         <source src="img/Videos/honda.mp4" type="video/mp4" />
       </video>
       <div class="container h-100">
-        <div class="d-flex h-100 mt-5 text-center align-items-center">
+        <div
+          class="d-flex h-100 justify-content-center align-items-center text-center"
+        >
           <div class="w-100 text-white">
             <h1 class="display-3 fs-1 fw-bolder" style="font-size: 4rem">
               ARRANCA EL MOTOR
             </h1>
-            <!-- Aumentar tamaño de fuente -->
-            <p class="lead mb-0 fs-4 fw-bold" style="font-size: 1.75rem">
-              NUEVA HONDA CIVIC HEV 2022
-            </p>
-            <!-- Aumentar tamaño de fuente -->
-            <a
-              href="#"
-              class="btn btn-outline-danger fw-bold mt-2"
-              style="font-size: 1.5rem; padding: 0.75rem 1.5rem"
-              >Leer Más</a
-            >
-            <!-- Aumentar tamaño de botón -->
           </div>
         </div>
       </div>
@@ -131,7 +116,7 @@
               class="img-fluid"
               alt="Chevrolet Camaro"
             />
-            <h5 class="card-title fw-bold">Chevrolet Malibu 2020</h5>
+            <h5 class="card-title fw-bold">Chevrolet Malibu LT 2020</h5>
             <a href="#" class="btn btn-outline-danger fw-bold">Leer Más</a>
           </div>
         </div>
@@ -294,24 +279,52 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <footer class="text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <!-- Descripción -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">
+              Nuestra Compañía
+            </h5>
+            <p>
+              Ofrecemos los mejores vehículos de lujo con atención
+              personalizada, garantizando una experiencia de compra única y
+              confiable.
+            </p>
+          </div>
 
-    <!--Google map-->
-    <div
-      id="map-container-google-2"
-      class="z-depth-1-half map-container align-items-center mt-4 shadow-lg"
-      style="height: 500px"
-    >
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.21971881223!2d-80.19240638545766!3d25.79632441346355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6a99095d22b%3A0x65e5cf9a3501969c!2sBraman%20Bugatti%20Miami!5e0!3m2!1ses!2sdo!4v1680501802494!5m2!1ses!2sdo"
-        width="100%"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
-    <!--Google Maps-->
+          <!-- Contacto -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Contacto</h5>
+            <p><i class="fas fa-envelope mr-3"></i> info@nuestraempresa.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +1 234 567 890</p>
+            <p>
+              <i class="fas fa-map-marker-alt mr-3"></i> 1234 Calle de Ejemplo,
+              Ciudad
+            </p>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Síguenos</h5>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white me-4"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center py-3">
+        &copy; 2024 Nuestra Empresa. Todos los derechos reservados.
+      </div>
+    </footer>
 
     <!-- Bootstrap JS (including Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
